@@ -2,8 +2,13 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    line-height: 1.4;
 }
 
+.header{
+    background-color: #1F2937;
+
+}
 /*nav bar*/
 
 ul  {
@@ -22,10 +27,51 @@ a   {
     justify-content: space-around;
     flex: auto;
     padding: 25px;
-    background-color: #1F2937;
+    
 }
 
 .logo{
-    color: white;
+    color: white; 
     font-weight: 900;
+    font-size: 24px;
 }
+
+/*nav bar*/
+
+
+/*Header content*/
+
+
+.header-content{
+    margin-top: 10px;
+    display: flex;   
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 16px;
+    color: white;
+}
+
+.awesome{
+    font-size: 48px;
+    font-weight: 900;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.info-header{
+    max-width: 30%;
+    margin-bottom: 70px;
+}
+
+img{
+    width: 500px;
+}
+
+button{
+    background-color: #3882F6;
+    padding: 10px 20px;
+    border-radius: 10pt;
+    border: none;
+    margin-top: 5px;
+}
+
+/*Header content*/
