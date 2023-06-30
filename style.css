@@ -108,3 +108,24 @@ h2{
 }
 
 /*Course info */
+
+/*Quote section*/
+    .quote-section{
+        background-color:#E5E7EB;
+        padding: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .quote{
+        font-size: 36px;
+    }
+
+    .author{
+        display: flex;
+        align-self: flex-end;
+        font-weight: bolder;
+    }
+/*Quote section*/
