@@ -6,11 +6,12 @@
     font-family: "Source Sans Pro", "Arial", sans-serif;;
 }
 
+
+/*nav bar*/
 .header{
     background-color: #1F2937;
 
 }
-/*nav bar*/
 
 ul  {
    list-style: none;
@@ -67,7 +68,7 @@ img{
     width: 500px;
 }
 
-button{
+.info-header > button{
     background-color: #3882F6;
     padding: 10px 20px;
     border-radius: 10pt;
@@ -110,6 +111,7 @@ h2{
 /*Course info */
 
 /*Quote section*/
+
     .quote-section{
         background-color:#E5E7EB;
         padding: 100px;
@@ -128,4 +130,55 @@ h2{
         align-self: flex-end;
         font-weight: bolder;
     }
+
 /*Quote section*/
+
+
+/*Sign in*/
+
+.sign-in{
+    background-color: white;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    margin: auto;
+    flex: 1;
+    border-radius: 10pt;
+    margin: 100px;
+}
+
+
+.sigma{
+    background-color: inherit;
+    border: 2px solid white;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 10pt;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.action{
+    color: white;
+    display: flex;
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    
+}
+
+.click-text{
+    color: white;
+    display: flex;
+    
+}
+
+/*Sign in*/
+
+/**/
